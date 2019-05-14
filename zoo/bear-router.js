@@ -67,7 +67,7 @@ router.put( '/:id' , ( req, res ) => {
                         res.status( 200 ).json( bear )
                     })
             } else {
-                res.status( 404 ).json({ message: 'Zoo unidentified (in bear language)' })
+                res.status( 404 ).json({ message: 'Bear unidentified (in bear language)' })
             }
         })
         .catch ( error => {
